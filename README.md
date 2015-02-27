@@ -23,8 +23,13 @@ THE `VERSION` environment variable is used to tag the created image.
 `dart_run.sh` is the batch script executed to launch the application when a 
 Docker container is started from this Docker image.
 
+### More Dart Docker images
+- https://github.com/dart-lang/dart_docker
+
 ### Support
 
 If you think this could be improved or you need more information just create a 
 new issue at https://github.com/bwu-dart/bwu_docker_dart_dev/issues or a
 pull request ;-)
+
+
