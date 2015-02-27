@@ -1,7 +1,6 @@
 ## A Dockerfile and two batch scripts for creating Dart dev channel Docker images
 
-### This Docker image is intended to be used for development only and not for
-production. 
+### This Docker image is intended to be used for development only and not for production. 
 
 ### Dockerfile
 `Dockerfile` contains the instructions for building a Docker image
