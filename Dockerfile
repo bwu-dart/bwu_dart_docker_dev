@@ -32,6 +32,7 @@ RUN \
   apt-get update && \
   apt-cache policy dart && \
   apt-get install dart=$DART_VERSION-1 && \
+  apt-show-versions dart && \
   rm -rf /var/lib/apt/lists/* && \
   ln -s /usr/lib/dart /usr/lib/dart/bin/dart-sdk
   

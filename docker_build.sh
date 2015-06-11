@@ -7,4 +7,4 @@ NAME=bwu-dart-dev
 docker pull $(awk '/^FROM[ \t\r\n\v\f]/ { print /:/ ? $2 : $2":latest" }' Dockerfile)
 echo "Building $REPOSITORY_PREFIX/$NAME:$VERSION"
 docker build $1 -t $REPOSITORY_PREFIX/$NAME .
-docker tag $REPOSITORY_PREFIX/$NAME $REPOSITORY_PREFIX/$NAME:$VERSION 
+docker tag $REPOSITORY_PREFIX/$NAME $REPOSITORY_PREFIX/$NAME:$VERSION
